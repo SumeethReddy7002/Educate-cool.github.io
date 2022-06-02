@@ -1,0 +1,3183 @@
+body{
+    font-family: "Poppins",sans-serif;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header h3{
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3 ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header h3{
+    color: blue;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hero{
+    margin-top: 10px;
+}
+#hero .about h1{
+    color: #444545;
+    text-align: start;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#hero .about p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 40px;
+    color: #000;
+}
+#hero .about{
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.03);
+}
+#hero .about:hover{
+    box-shadow: rgba(0, 0, 0, 10);
+}
+#features .allfeatures{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+   
+    
+}
+#features .features-box h1{
+    text-align: center;
+}
+#features .features-box{
+    font-size: 30px;
+    font-weight: bold;
+    color: #444545;
+}
+#features .features-box2{
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #444545;
+    border-radius: 10px;
+    text-align: start;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px; 
+    transition: 0.3sec ease; 
+    cursor: pointer;
+}
+#features .features-box2:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.06);
+
+}
+#features .features-box2 h5{
+    text-align: center;
+    margin-top: 2px;
+}
+#features .features-box2  p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 80px 10px 20px 10px;
+} 
+#features .features-box3{
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #444545;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+#features .features-box3 h5{
+    text-align: center;
+    margin-top: 2px;
+}
+#features .features-box3 p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 80px 10px 20px 10px;
+} 
+
+#features .features-box4{
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #444545;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+#features .features-box4 h5{
+    text-align: center;
+    margin-top: 2px;
+}
+#features .features-box4 p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 80px 10px 20px 10px;
+} 
+
+#features .features-box5{
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #444545;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+#features .features-box5 h5{
+    text-align: center;
+    margin-top: 2px;
+}
+#features .features-box5 p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 80px 10px 20px 10px;
+} 
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.footer .col{
+    margin-left: 100px;
+}
+.footer .col-1 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    color: #000;
+    padding: 10px;
+    margin-right: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.container .class10 {
+    margin-top: 100px;
+}
+.container .class10 a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 93px;
+    color: #fff;
+    background: #0384fc;
+    transition: 0.5s;
+}
+.container .class10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container .class9 {
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.container .class9  a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 97px;
+    color: #fff;
+    background: #0384fc;
+    transition: 0.5s;
+}
+.container .class9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#subjects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+#subjects-container .subjects-maths a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 105px;
+    color: #fff;
+    background: #0384fc;
+    transition: 0.5s;
+}
+#subjects-container .subjects-maths a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#subjects-container .subjects-maths{
+    margin-bottom: 50px
+}
+
+#subjects-container .subjects-physicsalscience a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 55px;
+    color: #fff;
+    background: #0384fc;
+    transition: 0.5s;
+}
+#subjects-container .subjects-physicsalscience a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#subjects-container .subjects-physicsalscience{
+    margin-top: 20px;
+    margin-bottom: 50px 
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-2 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-2 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 20px 120px; 
+    transition: 0.5s; 
+}
+.contianer-2 .syllabus-1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-2 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-2 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 20px 130px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 20px 65px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 110px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 85px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 35px;  
+    transition: 0.5;
+}
+.container-2 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 145px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 145px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 62px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 160px;  
+    transition: 0.5;
+}
+.container-2 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 155px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container13{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container13 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 70px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container14{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container14 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 143px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#pqclass9-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pqclass9-contianer .lesson1 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson1 a{  
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 120px;
+
+}
+
+#pqclass9-contianer .lesson1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+#pqclass9-contianer .lesson2 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson2 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 50px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+#pqclass9-contianer .lesson3 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson3 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 65px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+#pqclass9-contianer .lesson4 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson4 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 110px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+#pqclass9-contianer .lesson5 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson5 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 85px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson6 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson6 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson7 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson7 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 150px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson8 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson8 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 130px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson9 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson9 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 150px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson10 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson10 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 65px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson11 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson11 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 162px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson12 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson12 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 160px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson13 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson13 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 75px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson14 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson14 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 140px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-3 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-3 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 120px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-3 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-3 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 160px;  
+    transition: 0.5s;
+}
+.container-3 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-3 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 127px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 1px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 95px;  
+    transition: 0.5s;
+}
+.container-3 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px; 
+    transition: 0.5s; 
+
+}
+.container-3 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 90px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 115px; 
+    transition: 0.5s;
+}
+.container-3 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 45px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 130px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 130px;  
+}
+.container-3 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 60px;
+    transition: 0.5s;
+}
+.container-3 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container13{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container13 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 140px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container14{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container14 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 150px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#pqclass10-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pqclass10-contianer .lesson1 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson1 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 120px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson2 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson2 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 160px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson3 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson3 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 127px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson4 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson4 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 1px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson5 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson5 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 95px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson6 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson6 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 125px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson7 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson7 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 90px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson8 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson8 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 115px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson9 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson9 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 45px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson10 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson10 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 130px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson11 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson11 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 130px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson12 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson12 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 60px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson13 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson13 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 140px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson14 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson14 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 150px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#realnumbersclass10container .real-numbers-class10-container-text .notes-real-numbers{
+    color: #000;
+    margin-left: 20px;
+}
+#realnumbersclass10container .real-numbers-class10-container-text .notes-real-numbers strong{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#realnumbersclass10container .real-numbers-class10-container-text .notes-real-numbers p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+#realnumbersclass10container .real-numbers-class10-container-text .real-numbers-img{
+    margin-left: 30px;
+}
+
+#polynomialscalss10container{
+    color: #000;
+    margin-left: 50px;
+}
+#polynomialscalss10container .real-numbers-class10-container-text-2 strong{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#polynomialscalss10container .real-numbers-class10-container-text-2 p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+ 
+#scrollpath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+#progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+#progressbar:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(30px);
+}
+#progressbar:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(30px);
+}
+
+.container-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-4 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-4 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 120px;  
+    transition: 0.5s;
+}
+.container-4 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-4 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-4 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 55px; 
+    transition: 0.5s; 
+}
+.container-4 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-4 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-4 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 65px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-4 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-4 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 95px;
+    transition: 0.5s;
+}
+.container-4 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-4 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-4 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 25px; 
+    transition: 0.5s; 
+}
+.container-4 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-4 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-4 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 55px;  
+    transition: 0.5s;
+}
+.container-4 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-4 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-4 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 65px; 
+    transition: 0.5s; 
+}
+.container-4 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-4 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-4 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 65px; 
+    transition: 0.5s; 
+}
+.container-4 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-4 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-4 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px;
+    transition: 0.5s;  
+    
+}
+.container-4 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-4 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-4 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 62px; 
+    transition: 0.5s; 
+}
+.container-4 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-4 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-4 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-4 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-4 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 140px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-4 .syllabus-container13{
+    margin-bottom: 50px;  
+}
+
+.container-4 .syllabus-container13 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 103px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-4 .syllabus-container14{
+    margin-bottom: 50px; 
+}
+
+.container-4 .syllabus-container14 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 18px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-4 .syllabus-container15{
+    margin-bottom: 50px; 
+}
+
+.container-4 .syllabus-container15 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px;
+    transition: 0.5s;  
+}
+.container-4 .syllabus-container15 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-5 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-5 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 33px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-5 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-5 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 110px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 30px;
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 60px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-5 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 10px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-5 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-5 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 140px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-5 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 80px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+
+.container-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-6 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-6 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 33px;
+    transition: 0.5s;  
+}
+.container-6 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+.container-6 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-6 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 110px;
+    transition: 0.5s;  
+}
+.container-6 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-6 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-6 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px; 
+    transition: 0.5s; 
+}
+.container-6 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-6 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-6 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 30px;
+    transition: 0.5s;  
+}
+.container-6 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-6 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-6 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 60px;  
+    transition: 0.5s;
+}
+.container-6 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-6 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-6 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px;
+    transition: 0.5s;
+}
+.container-6 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-6 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-6 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 10px; 
+    transition: 0.5s; 
+}
+.container-6 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-6 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-6 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px; 
+    transition: 0.5s; 
+}
+.container-6 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-6 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-6 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 140px;
+    transition: 0.5s;  
+}
+.container-6 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-6 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-6 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px; 
+    transition: 0.5s;
+}
+.container-6 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-6 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-6 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 100px; 
+    transition: 0.5s; 
+}
+.container-6 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-6 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-6 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 80px;
+    transition: 0.5s;  
+}
+.container-6 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+
+.container-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-7 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-7 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 130px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+.container-7 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-7 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 175px;
+    transition: 0.5s;
+}
+.container-7 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;     
+}
+.container-7 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 140px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 50px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-7 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 160px; 
+    transition: 0.5s;
+}
+.container-7 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;  
+    color: #fff;
+    padding: 20px 145px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-7 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 0px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-7 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 135px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-7 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 115px;
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 120px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 175px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 165px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+.container-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-8 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-8 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 132px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+.container-8 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-8 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 125px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container2 a:hover{
+  transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-8 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-8 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 35px; 
+    transition: 0.5s; 
+}
+.container-8 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-8 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-8 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 60px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-8 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 135px;  
+    transition: 0.5s;
+}
+.container-8 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-8 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-8 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 10px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-8 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 80px; 
+    transition: 0.5s; 
+}
+.container-8 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-8 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 40px;
+    transition: 0.5s  
+}
+.container-8 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-8 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 40px; 
+    transition: 0.5s; 
+}
+.container-8 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-8 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 50px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-8 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 70px; 
+    transition: 0.5s; 
+}
+.container-8 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-8 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-8 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 110px;
+    transition: 0.5s;  
+}
+.container-8 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#header .logo{
+    cursor: pointer;
+}
+#home .home-nav{
+    text-align: center;
+}
+#home .home-nav .home-1{
+   margin-top: 100px
+    
+}
+#home .home-nav .home-1 a{
+    text-decoration: none;
+    color: #fff;
+    background: #0384fc;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+
+}
+#home .home-nav .home-1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#home .home-nav .home-2{
+    margin-top: 100px;
+}
+#home .home-nav .home-2 a{
+    text-decoration: none;
+    color: #fff;
+    background: #0384fc;  
+    border: none;
+    border-radius: 5px;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+#home .home-nav .home-2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+#index-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -150px 10px;  
+}
+@media (max-width:799px) {
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+    } 
+    #navbar li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #header .logo{
+        margin-left: -90px;
+        margin-right:-30px; 
+    }
+    ::-webkit-scrollbar{
+        width: 0;
+    }
+     
+    #scrollpath{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.05);
+    }
+    #progressbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+        background: linear-gradient(to top, #008aff,#00ffe7);
+    
+        animation: animate 5s linear infinite;
+    }
+    @keyframes animate{
+        0%,100%{
+            filter: hue-rotate(0deg);
+        }
+        50%{
+            filter: hue-rotate(360deg);
+        }
+    }
+    #progressbar:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top,#008aff,#00ffe7);
+        filter: blur(30px);
+    }
+    #progressbar:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top,#008aff,#00ffe7);
+        filter: blur(30px);
+    }
+    #index-images{
+       display: none;
+    }
+    #home .home-nav{
+        text-align: center;
+    }
+    #home .home-nav .home-1{
+       margin-top: 200px
+        
+    }
+    #home .home-nav .home-1 a{
+        text-decoration: none;
+        color: #fff;
+        background: #0384fc;
+        border: none;
+        border-radius: 10px;
+        padding: 40px 150px;
+        font-size: 20px;
+        font-weight: 400;
+        transition: 0.5s;
+    
+    }
+    #home .home-nav .home-1 a:hover{
+        transform: scale(1.5);
+        background: #0384fc;
+        box-shadow: 10px 10px 10px #0ff;
+        z-index: 2;
+    }
+    #home .home-nav .home-2{
+        margin-top: 100px;
+    }
+    #home .home-nav .home-2 a{
+        text-decoration: none;
+        color: #fff;
+        background: #0384fc;  
+        border: none;
+        border-radius: 10px;
+        padding: 40px 95px;
+        font-size: 20px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+    #home .home-nav .home-2 a:hover{
+        transform: scale(1.5);
+        background: #0384fc;
+        box-shadow: 10px 10px 10px #0ff;
+        z-index: 2;
+    }
+    #navbar li a:hover,
+    #navbar li a.active{
+    color: #088178;
+    }
+
+    #navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 2px;
+    left: 9px;
+    }  
+}
