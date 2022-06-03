@@ -4139,6 +4139,50 @@ body{
         left: 10px;
     }
     
+    #notes-header-36 .logo-36{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #notes-header-36{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #notes-header-36 h3{
+        cursor: pointer;
+    }
+    #notes-navbar-36{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-36 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #notes-navbar-36 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #notes-navbar-36 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
 .container-3{
     display: flex;
     flex-direction: column;
