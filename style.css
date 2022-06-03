@@ -3050,17 +3050,2401 @@ body{
     justify-content: space-between;
     margin: -150px 10px;  
 }
-@media (max-width:799px) {
+
+@media screen and (max-width:600px) {
+    #index-images{
+        display: none;
+    } 
+    #header .logo{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+    }
+    #navbar li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    #header-2 .logo-1{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-2 h3{
+        cursor: pointer;
+    }
+    #navbar-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-2 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-2 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-2 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
     
-#home .home-nav .home-2 a{
+    #header-3 .logo-3{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-3 h3{
+        cursor: pointer;
+    }
+    #navbar-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-3 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-3 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-3 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    #header-4 .logo-4{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-4 h3{
+        cursor: pointer;
+    }
+    #navbar-4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-4 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-4 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-4 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-5 .logo-5{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-5 h3{
+        cursor: pointer;
+    }
+    #navbar-5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-5 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-5 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-5 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-6 .logo-6{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-6{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-6 h3{
+        cursor: pointer;
+    }
+    #navbar-6{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-6 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-6 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-6 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-7 .logo-7{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-7{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-7 h3{
+        cursor: pointer;
+    }
+    #navbar-7{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-7 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-7 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-7 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-8 .logo-8{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-8{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-8 h3{
+        cursor: pointer;
+    }
+    #navbar-8{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-8 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-8li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-8 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-9 .logo-9{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-9{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-9 h3{
+        cursor: pointer;
+    }
+    #navbar-9{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-9 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-9 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-9 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-10 .logo-10{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-10{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-10 h3{
+        cursor: pointer;
+    }
+    #navbar-10{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-10 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-10 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-10 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    #header-11 .logo-11{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-11{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-11 h3{
+        cursor: pointer;
+    }
+    #navbar-11{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-11 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-11 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-11 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-12 .logo-12{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-12{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-12 h3{
+        cursor: pointer;
+    }
+    #navbar-12{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-12 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-12 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-12 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-13 .logo-13{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-13{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-13 h3{
+        cursor: pointer;
+    }
+    #navbar-13{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-13 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-13 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-13 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+    #header-36 .logo-36{
+        cursor: pointer;
+        margin-left: -100px;
+    }
+    #header-36{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 80px;
+        align-items: center;
+    }
+    #header-36 h3{
+        cursor: pointer;
+    }
+    #navbar-36{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: -50px;
+        
+    }
+    #navbar-36 li{
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    }
+    #navbar-36 li a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    #navbar-36 li a.active::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    
+.container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-3 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-3 .syllabus-container1 a{
     text-decoration: none;
-    color: #fff;
-    background: #0384fc;  
-    border: none;
-    border-radius: 5px;
-    padding: 30px 30px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 65px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-3 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-3 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 110px;  
     transition: 0.5s;
 }
+.container-3 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
 }
+
+.container-3 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 80px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px -10px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 45px;  
+    transition: 0.5s;
+}
+.container-3 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 80px; 
+    transition: 0.5s; 
+
+}
+.container-3 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 45px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 70px; 
+    transition: 0.5s;
+}
+.container-3 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 4px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 80px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-3 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 80px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 10px;
+    transition: 0.5s;
+}
+.container-3 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container13{
+    margin-bottom: 50px;  
+}
+
+.container-3 .syllabus-container13 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 85px;
+    transition: 0.5s;  
+}
+.container-3 .syllabus-container13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-3 .syllabus-container14{
+    margin-bottom: 50px; 
+}
+
+.container-3 .syllabus-container14 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 100px; 
+    transition: 0.5s; 
+}
+.container-3 .syllabus-container14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pqclass10-contianer .lesson1 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson1 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 80px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson2 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson2 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 130px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson3 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson3 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 100px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson4 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson4 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson5 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson5 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 55px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson6 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson6 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 95px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson7 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson7 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 55px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson8 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson8 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 75px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson9 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson9 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 5px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson10 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson10 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 90px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson11 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson11 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 90px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson12 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson12 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 17px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson13 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson13 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 100px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass10-contianer .lesson14 {
+    margin-bottom: 50px;
+}
+
+#pqclass10-contianer .lesson14 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 115px;
+    transition: 0.5s;
+}
+#pqclass10-contianer .lesson14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-5 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-5 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 10px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-5 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-5 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 60px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 40px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 20px 17px;
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 10px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-5 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 75px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 0px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-5 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 70px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-5 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-5 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 80px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-5 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 65px; 
+    transition: 0.5s; 
+}
+.container-5 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-5 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-5 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 40px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-5 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-5 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 20px;
+    transition: 0.5s;  
+}
+.container-5 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-2 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-2 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 15px 80px; 
+    transition: 0.5s; 
+}
+.contianer-2 .syllabus-1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+.container-2 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-2 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 15px 90px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background:  #0384fc;
+    color: #fff;
+    padding: 15px 22px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 70px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 45px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 0px;  
+    transition: 0.5;
+}
+.container-2 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 105px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 85px;
+    transition: 0.5s;  
+}
+.container-2 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 105px; 
+    transition: 0.5s; 
+}
+.container-2 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 15px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-2 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 115px;  
+    transition: 0.5;
+}
+.container-2 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 110px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container13{
+    margin-bottom: 50px;  
+}
+
+.container-2 .syllabus-container13 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 25px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+.container-2 .syllabus-container14{
+    margin-bottom: 50px; 
+}
+
+.container-2 .syllabus-container14 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 100px;  
+    transition: 0.5s;
+}
+.container-2 .syllabus-container14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+.container-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-7 .syllabus-container1{
+   margin-bottom: 50px;
+}
+.container-7 .syllabus-container1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 60px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+.container-7 .syllabus-container2{
+    margin-bottom: 50px;
+}
+.container-7 .syllabus-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 105px;
+    transition: 0.5s;
+}
+.container-7 .syllabus-container2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;     
+}
+.container-7 .syllabus-container3{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 70px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container4{
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container4 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 20px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-7 .syllabus-container5{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container5 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 90px; 
+    transition: 0.5s;
+}
+.container-7 .syllabus-container5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container6{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container6 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;  
+    color: #fff;
+    padding: 15px 75px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;    
+}
+.container-7 .syllabus-container7{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container7 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 0px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;   
+}
+.container-7 .syllabus-container8{
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container8 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 75px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;  
+}
+.container-7 .syllabus-container9{
+    margin-bottom: 50px;  
+}
+
+.container-7 .syllabus-container9 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 60px;
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container10{ 
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container10 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 65px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container11{    
+    margin-bottom: 50px;
+}
+
+.container-7 .syllabus-container11 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 125px; 
+    transition: 0.5s; 
+}
+.container-7 .syllabus-container11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+.container-7 .syllabus-container12{
+    margin-bottom: 50px; 
+}
+
+.container-7 .syllabus-container12 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+    background: #0384fc;
+    color: #fff;
+    padding: 15px 110px;
+    transition: 0.5s;  
+}
+.container-7 .syllabus-container12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+#pqclass9-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pqclass9-contianer .lesson1 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson1 a{  
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 80px;
+
+}
+
+#pqclass9-contianer .lesson1 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+#pqclass9-contianer .lesson2 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson2 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson2 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+#pqclass9-contianer .lesson3 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson3 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson3 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2; 
+}
+
+#pqclass9-contianer .lesson4 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson4 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 70px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson4 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+#pqclass9-contianer .lesson5 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson5 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson5 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson6 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson6 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson6 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson7 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson7 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 105px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson7 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson8 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson8 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 85px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson8 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson9 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson9 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson9 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson10 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson10 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson10 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson11 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson11 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 130px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson11 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson12 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson12 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 120px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson12 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson13 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson13 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 35px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson13 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+#pqclass9-contianer .lesson14 {
+    margin-bottom: 50px;
+}
+
+#pqclass9-contianer .lesson14 a{
+    color: #fff;
+    background: #0384fc;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 100px;
+    transition: 0.5s;
+}
+#pqclass9-contianer .lesson14 a:hover{
+    transform: scale(1.5);
+    background: #0384fc;
+    box-shadow: 10px 10px 10px #0ff;
+    z-index: 2;
+}
+
+
+
+    
+
+ 
+
+
+
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    #index-images{
+    display: none;
+    }      
+} 
+
+ 
