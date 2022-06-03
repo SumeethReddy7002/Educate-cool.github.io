@@ -28,7 +28,7 @@ body{
 #navbar li a{
     text-decoration: none;
     color: #000;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
 #navbar li a:hover,
 #navbar li a.active{
@@ -45,24 +45,6 @@ body{
     left: 20px;
 }
 
-    #header-3 .logo-3{
-        cursor: pointer;
-        margin-left: -100px;
-    }
-    #header-3{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px 80px;
-        align-items: center;
-    }
-
-#header h3{
-    color: blue;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: bold;
-}
 #header-3{
     display: flex;
     flex-direction: row;
@@ -555,7 +537,39 @@ body{
 #navbar-36 li a.active{
     color: #088178;
 }
-
+#notes-header-36{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#notes-header-36 h3{
+    cursor: pointer;
+}
+#notes-navbar-36{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#notes-navbar-36 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#notes-navbar-36 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#notes-navbar-36 li a:hover,
+#notes-navbar-36 li a.active{
+    color: #088178;
+}
 #hero{
     margin-top: 10px;
 }
@@ -3554,7 +3568,6 @@ body{
     justify-content: space-between;
     margin: -150px 10px;  
 }
-
 @media screen and (max-width:600px) {
     #index-images{
         display: none;
@@ -3599,50 +3612,7 @@ body{
         bottom: 5px;
         left: 10px;
     }
-    #header-2 .logo-2{
-        cursor: pointer;
-        margin-left: -100px;
-    }
-    #header-2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px 80px;
-        align-items: center;
-    }
-    #header-2 h3{
-        cursor: pointer;
-    }
-    #navbar-2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 15px;
-        font-weight: 500;
-        margin-left: -50px;
-        
-    }
-    #navbar-2 li{
-        list-style: none;
-        padding: 10px;
-        position: relative;
-    }
-    #navbar-2 li a{
-        text-decoration: none;
-        color: #000;
-        transition: 0.3s ease;
-    }
-    #navbar-2 li a.active::after{
-        content: "";
-        width: 30%;
-        height: 2px;
-        background: #088178;
-        position: absolute;
-        bottom: 5px;
-        left: 10px;
-    }
-    
+
     #header-3 .logo-3{
         cursor: pointer;
         margin-left: -100px;
@@ -5868,8 +5838,7 @@ body{
     background: #0384fc;
     box-shadow: 10px 10px 10px #0ff;
     z-index: 2;
-}
-
+}  
 #pqclass9-contianer .lesson12 {
     margin-bottom: 50px;
 }
