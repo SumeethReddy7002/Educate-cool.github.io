@@ -59,7 +59,7 @@ body{
     padding: 20px 80px;
     align-items: center;
 }
-#header h3{
+#header-2 h3{
     cursor: pointer;
 }
 #navbar-2{
@@ -3678,7 +3678,7 @@ body{
     
     #header-3 .logo-3{
         cursor: pointer;
-        margin-left: -100px;
+        margin-left: 100px;
     }
     #header-3{
         display: flex;
