@@ -52,6 +52,543 @@ body{
     font-weight: bold;
 }
 
+#header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header h3{
+    cursor: pointer;
+}
+#navbar-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-2 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-2 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-2 li a:hover,
+#navbar-2 li a.active{
+    color: #088178;
+}
+
+#navbar-2 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-3 h3{
+    cursor: pointer;
+}
+#navbar-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-3 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-3 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-3 li a:hover,
+#navbar-3 li a.active{
+    color: #088178;
+}
+
+#navbar-3 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-3 h3{
+    color: blue;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#heade-4 h3{
+    cursor: pointer;
+}
+#navbar-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-4 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-4 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-4 li a:hover,
+#navbar-4 li a.active{
+    color: #088178;
+}
+
+#navbar-4 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-5 h3{
+    cursor: pointer;
+}
+#navbar-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-5 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-5 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-5 li a:hover,
+#navbar-5 li a.active{
+    color: #088178;
+}
+
+#navbar-5 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-6 h3{
+    cursor: pointer;
+}
+#navbar-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-6 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-6 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-6 li a:hover,
+#navbar-6 li a.active{
+    color: #088178;
+}
+
+#navbar-6 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-7 h3{
+    cursor: pointer;
+}
+#navbar-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-7 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-7 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-7 li a:hover,
+#navbar-7 li a.active{
+    color: #088178;
+}
+
+#navbar-7 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-8 h3{
+    cursor: pointer;
+}
+#navbar-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-8 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-8 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-8 li a:hover,
+#navbar-8 li a.active{
+    color: #088178;
+}
+
+#navbar-8 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#header-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-9 h3{
+    cursor: pointer;
+}
+#navbar-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-9 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-9 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-9 li a:hover,
+#navbar-9 li a.active{
+    color: #088178;
+}
+
+#navbar-9 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+#header-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-10 h3{
+    cursor: pointer;
+}
+#navbar-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-10 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-10 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-10 li a:hover,
+#navbar-10 li a.active{
+    color: #088178;
+}
+
+#navbar-10 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+#header-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-11 h3{
+    cursor: pointer;
+}
+#navbar-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-11 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-11 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-11 li a:hover,
+#navbar-11 li a.active{
+    color: #088178;
+}
+
+#header-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-12 h3{
+    cursor: pointer;
+}
+#navbar-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-12 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-12 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-12 li a:hover,
+#navbar-12 li a.active{
+    color: #088178;
+}
+
+#header-13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-13 h3{
+    cursor: pointer;
+}
+#navbar-13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-13 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-13 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-13 li a:hover,
+#navbar-13 li a.active{
+    color: #088178;
+}
+
+#header-36{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+#header-36 h3{
+    cursor: pointer;
+}
+#navbar-36{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#navbar-36 li{
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+#navbar-36 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+#navbar-36 li a:hover,
+#navbar-36 li a.active{
+    color: #088178;
+}
+
 #hero{
     margin-top: 10px;
 }
