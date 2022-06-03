@@ -3051,133 +3051,16 @@ body{
     margin: -150px 10px;  
 }
 @media (max-width:799px) {
-    #navbar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 15px;
-        font-weight: 500;
-    } 
-    #navbar li{
-        list-style: none;
-        padding: 10px;
-        position: relative;
-    }
-    #header .logo{
-        margin-left: -90px;
-        margin-right:-30px; 
-    }
-    ::-webkit-scrollbar{
-        width: 0;
-    }
-     
-    #scrollpath{
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 10px;
-        height: 100%;
-        background: rgba(255, 255, 255, 0.05);
-    }
-    #progressbar{
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 10px;
-        height: 100%;
-        background: linear-gradient(to top, #008aff,#00ffe7);
     
-        animation: animate 5s linear infinite;
-    }
-    @keyframes animate{
-        0%,100%{
-            filter: hue-rotate(0deg);
-        }
-        50%{
-            filter: hue-rotate(360deg);
-        }
-    }
-    #progressbar:before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top,#008aff,#00ffe7);
-        filter: blur(30px);
-    }
-    #progressbar:after{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top,#008aff,#00ffe7);
-        filter: blur(30px);
-    }
-    #index-images{
-       display: none;
-    }
-    #home .home-nav{
-        text-align: center;
-    }
-    #home .home-nav .home-1{
-       margin-top: 200px
-        
-    }
-    #home .home-nav .home-1 a{
-        text-decoration: none;
-        color: #fff;
-        background: #0384fc;
-        border: none;
-        border-radius: 10px;
-        padding: 40px 150px;
-        font-size: 20px;
-        font-weight: 400;
-        transition: 0.5s;
-    
-    }
-    #home .home-nav .home-1 a:hover{
-        transform: scale(1.5);
-        background: #0384fc;
-        box-shadow: 10px 10px 10px #0ff;
-        z-index: 2;
-    }
-    #home .home-nav .home-2{
-        margin-top: 100px;
-    }
-    #home .home-nav .home-2 a{
-        text-decoration: none;
-        color: #fff;
-        background: #0384fc;  
-        border: none;
-        border-radius: 10px;
-        padding: 40px 95px;
-        font-size: 20px;
-        font-weight: 400;
-        transition: 0.5s;
-    }
-    #home .home-nav .home-2 a:hover{
-        transform: scale(1.5);
-        background: #0384fc;
-        box-shadow: 10px 10px 10px #0ff;
-        z-index: 2;
-    }
-    #navbar li a:hover,
-    #navbar li a.active{
-    color: #088178;
-    }
-
-    #navbar li a.active::after{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: #088178;
-    position: absolute;
-    bottom: 2px;
-    left: 9px;
-    }  
+#home .home-nav .home-2 a{
+    text-decoration: none;
+    color: #fff;
+    background: #0384fc;  
+    border: none;
+    border-radius: 5px;
+    padding: 30px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+}
 }
