@@ -537,18 +537,17 @@ body{
 #navbar-36 li a.active{
     color: #088178;
 }
-
-#notes-header-36{
+#header-26{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 80px;
     align-items: center;
 }
-#notes-header-36 h3{
+#header-26 h3{
     cursor: pointer;
 }
-#notes-navbar-36{
+#navbar-26{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -557,28 +556,23 @@ body{
     font-weight: 500;
     
 }
-#notes-navbar-36 li{
+#navbar-26 li{
     list-style: none;
     padding: 20px;
     position: relative;
 }
-#notes-navbar-36 li a{
+#navbar-26 li a{
     text-decoration: none;
     color: #000;
     transition: 0.3s ease;
 }
-#notes-navbar-36 li a:hover,
-#notes-navbar-36 li a.active{
+#navbar-26 li a:hover,
+#navbar-26 li a.active{
     color: #088178;
 }
 
-#mobile-notes-header-36{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 80px;
-    align-items: center;
-}
+
+
 #hero{
     margin-top: 10px;
 }
@@ -4148,21 +4142,21 @@ body{
         left: 10px;
     }
     
-    #notes-header-36 .logo-36{
+    #header-26 .logo-26{
         cursor: pointer;
         margin-left: -100px;
     }
-    #notes-header-36{
+    #header-26{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 20px 80px;
         align-items: center;
     }
-    #notes-header-36 h3{
+    #header-26 h3{
         cursor: pointer;
     }
-    #notes-navbar-36{
+    #navbar-26{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -4172,17 +4166,17 @@ body{
         margin-left: -50px;
         
     }
-    #navbar-36 li{
+    #navbar-26 li{
         list-style: none;
         padding: 10px;
         position: relative;
     }
-    #notes-navbar-36 li a{
+    #navbar-26 li a{
         text-decoration: none;
         color: #000;
         transition: 0.3s ease;
     }
-    #notes-navbar-36 li a.active::after{
+    #navbar-26 li a.active::after{
         content: "";
         width: 30%;
         height: 2px;
